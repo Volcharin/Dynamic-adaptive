@@ -15,8 +15,3 @@ data-da="куда,когда,какой"
 куда (имя класса)	[обязательный]	Класс блока, в который нужно будет "перебросить" текущий объект. Если класс не уникален, объек перебросится в первый элемент с этим классом.
 когда	767	Брейкпоинт при котором перемещать объект.
 какой	last	Позиция на которую нужно переместить объект внутри родителя куда. Кроме цифр можно указать слова first (в начало блока) или last (в конец блока)
-Примеры
-<div data-da=".content__column-garden" class="content__block">Я Коля</div>
-<div data-da=".content__column-garden,992" class="content__block">Я Коля</div>
-<div data-da=".content__column-garden,992,2" class="content__block">Я Коля</div>
-<div data-da=".content__column-garden,992,2" class="content__block">Я Коля</div>
